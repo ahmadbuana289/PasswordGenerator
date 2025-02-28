@@ -32,8 +32,8 @@ body {
 nav {
   bottom: 0;
   background-color: black;
-  width: 100%;
-  padding: 10px;
+  width: 50%;
+  padding: 7px;
   display: flex;
   justify-content: center; /* Center the nav items horizontally */
   align-items: center; /* Center the nav items vertically */
@@ -42,13 +42,15 @@ nav {
 
 nav a {
   color: white;
-  padding: 10px;
+  padding: 7px;
   text-decoration: none;
   font-weight: 700;
   display: flex;
   justify-content: center; /* Center the text horizontally */
   align-items: center; /* Center the text vertically */
   border-radius: 10px;
+  width: 100px; /* Set a fixed width */
+  height: 40px; /* Set a fixed height */
 }
 
 nav a .mode {
