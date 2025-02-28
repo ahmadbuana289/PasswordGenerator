@@ -39,3 +39,10 @@ const savePassword = () => {
 
 // Add event listener to saveButton
 saveButton.addEventListener("click", savePassword);
+
+let body = document.body;
+
+function darkMode() {
+    console.log('dark mode di klik');
+    body.classList.toggle('dark');
+}
